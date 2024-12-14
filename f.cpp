@@ -2,5 +2,5 @@
 
 
 double f1(double x){
-    return sqrt(1 - x * x);
+    return sin(x) * sin(2 * x) * sin(3 * x);
 }
