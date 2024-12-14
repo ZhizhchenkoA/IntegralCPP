@@ -1,9 +1,12 @@
 #ifndef _INTEGRAL_H_
 #define _INTEGRAL_H_
+
 #include <iostream>
 #include <math.h>
 
 using namespace std;
+
+void swap(double *a, double *b);
 
 double f1(double x);
 
