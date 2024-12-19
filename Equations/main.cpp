@@ -18,5 +18,6 @@ int main() {
         else    
             printf("x1 = %lf, x2 = %lf\n", sol.x1, sol.x2);
     }
+    fclose(fp);
     return 0;
 }

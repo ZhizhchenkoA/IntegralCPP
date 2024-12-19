@@ -22,6 +22,7 @@ int main() {
 
     for (i = 0; i < N; i++)
         printf("%lf %lf %lf\n", arr[i]->x, arr[i]->y, arr[i]->z);
-    
+        
+    fclose(fp);
     return 0; 
 }
