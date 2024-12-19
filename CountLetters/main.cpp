@@ -7,7 +7,6 @@
 
 
 int main() {
-    
 
 
     FILE *fp_r = fopen("input.txt", "r");
@@ -23,8 +22,8 @@ int main() {
             arr_eng[c - 'A']++;
         
     for (int i = 0; i < 26; i++)
-        if (arr_eng[i] != 0)
-            fprintf(fp_w, "%c: %d\n", (char) (i) + 'a', arr_eng[i]);
+        
+        fprintf(fp_w, "%c: %d\n", (char) (i) + 'a', arr_eng[i]);
     
    
 
