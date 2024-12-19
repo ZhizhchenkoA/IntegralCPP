@@ -8,7 +8,7 @@
 struct vector3d {
     double x, y, z;
 };
-typedef struct vector3d vector3d;
+
 
 double sqr(double x);
 double norm(vector3d vec);

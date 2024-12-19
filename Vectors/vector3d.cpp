@@ -1,7 +1,5 @@
 #include "vectors.h"
 
-
-
 double sqr(double x){
     return x * x;
 }
